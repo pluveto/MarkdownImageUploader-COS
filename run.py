@@ -9,7 +9,7 @@ if(len(sys.argv)!=2):
 # 2. try to read file
    
 try:
-    f = open(sys.argv[1],'rt')
+    f = open(sys.argv[1],'r',encoding='utf-8')
 except Exception as e:    
     print(e)
     exit()
@@ -66,6 +66,6 @@ for item in local:
 filename,type= os.path.splitext(sys.argv[1]) 
 
 newpath = filename + '.out' + type
-with open(newpath, "w") as fp:
+with open(newpath, "w",encoding='utf-8') as fp:
     fp.write(contents)
     print("OK: " + newpath)
