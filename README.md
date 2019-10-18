@@ -18,3 +18,5 @@ py run.py <your_file.md>
 ```
 
 之后会输出文件 `your_file.out.md`，即可发布到你的博客啦。
+
+**务必使用 POWERSHELL, 一律 UTF-8 编码**
