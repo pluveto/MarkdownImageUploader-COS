@@ -18,7 +18,7 @@ contents = f.read()
 dictImage = {}
 
 import re
-regex = r"!\[.*?]\((.*?\.(png|jpg|jpeg|gif|webp))\)"
+regex = r"!\[.*?]\((\w:\\.*?\.(png|jpg|jpeg|gif|webp))\)"
 matches = re.finditer(regex, contents, re.MULTILINE)
 local = []
 for match in matches:
