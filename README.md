@@ -1,5 +1,5 @@
 # MarkdownImageUploader-COS
-将 markdown 文件里的本地图片上传到腾讯云对象储存，以便发布到博客。请搭配 Typora 食用。
+将 markdown 文件里的本地图片上传到腾讯云对象储存，以便发布到博客。请搭配 Typora 食用。目前由于正则只匹配形如 X:\ 的路径，请别在 Linux/Mac 上使用，如果需要，请自行修改代码，也欢迎提交 PR。
 
 ## 食用方法
 
