@@ -32,8 +32,8 @@ import logging
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout)
 
-secret_id = 'AKIDwjORPCOZzIPKN2g3kEZijbHl8KJ6s5MR'      # 替换为用户的 secretId
-secret_key = '1aGoDoJcjdLrCNPFxVs31nNlwwoUyFLF'      # 替换为用户的 secretKey
+secret_id = ''      # 替换为用户的 secretId
+secret_key = ''      # 替换为用户的 secretKey
 region = 'ap-chengdu'     # 替换为用户的 Region
 token = None                # 使用临时密钥需要传入 Token，默认为空，可不填
 scheme = 'https'            # 指定使用 http/https 协议来访问 COS，默认为 https，可不填
